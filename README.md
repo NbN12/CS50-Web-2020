@@ -14,7 +14,7 @@
 
 [Details](https://cs50.harvard.edu/web/2020/projects/0/search/)
 
-[Demo](https://wiki-clone-cs50w.herokuapp.com/)
+[Demo](https://search-cs50-web.herokuapp.com/)
 
 [Video Demo](https://www.youtube.com/watch?v=NIXez8okMbs)
 
