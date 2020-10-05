@@ -86,6 +86,13 @@
 
 [Details](https://cs50.harvard.edu/web/2020/projects/4/network/)
 
-[Demo](https://cs50w-simple-mail-app.herokuapp.com/)
+[Demo](https://network-cs50-web.herokuapp.com/)
 
 [Video Demo](https://www.youtube.com/watch?v=mZwGtA9GS_E)
+
+### Capstone
+
+[Demo](https://capstone-cs50-web.herokuapp.com/)
+
+[Video Demo](google.com)
+
