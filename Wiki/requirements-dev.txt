@@ -2,3 +2,4 @@ django
 markdown2
 pylint
 autopep8
+pylint-django
