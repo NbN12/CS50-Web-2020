@@ -1,18 +1,22 @@
-# CS50-Web-2020
+# Project from CS50 Web 2020
 
 ## Table of contents
 
-* [General info](#general-info)
-  * [Description](#description)
-  * [Prerequisites](#prerequisites)
-  * [Setup](#setup) 
-* [Projects](#projects)
-  1. [Project 0](#project-0)
-  2. [Project 1](#project-1)
-  3. [Project 2](#project-2)
-  4. [Project 3](#project-3)
-  5. [Project 4](#project-4)
-  6. [Capstone](#capstone)
+- [Project from CS50 Web 2020](#project-from-cs50-web-2020)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+    - [Description](#description)
+    - [Prerequisites (Only for project 1 and beyond)](#prerequisites-only-for-project-1-and-beyond)
+    - [Setup](#setup)
+    - [Projects](#projects)
+      - [1. Project 0](#1-project-0)
+      - [2. Project 1](#2-project-1)
+      - [3. Project 2](#3-project-2)
+      - [4. Project 3](#4-project-3)
+      - [5. Project 4](#5-project-4)
+      - [6. Capstone](#6-capstone)
+  - [Deployment (Comming soon)](#deployment-comming-soon)
+  - [Vscode extensions](#vscode-extensions)
 
 ## General info
 
@@ -101,3 +105,10 @@
    > Comming soon.
    * Project [Demo](.)(Comming soon)
    * [Video Demo](.)(Comming soon)
+
+## Deployment (Comming soon)
+
+## Vscode extensions
+1. ms-python.python
+2. ms-python.vscode-pylance
+3. batisteo.vscode-django
