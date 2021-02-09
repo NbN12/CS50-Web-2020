@@ -1,8 +1,8 @@
-# Project from CS50 Web 2020
+# CS50 Web (version 2020)
 
 ## Table of contents
 
-- [Project from CS50 Web 2020](#project-from-cs50-web-2020)
+- [CS50 Web (version 2020)](#cs50-web-version-2020)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
     - [Description](#description)
