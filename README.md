@@ -19,7 +19,7 @@
 ### Description
    > Solutions for [CS50W's Projects(version 2020)](https://cs50.harvard.edu/web/2020/)
 
-### Prerequisites
+### Prerequisites (Only for project 1 and beyond)
    * Python 3.7 or greater
    * Django 3.x
 

@@ -1,5 +1,0 @@
-django
-selenium
-pylint
-autopep8
-pylint-django
