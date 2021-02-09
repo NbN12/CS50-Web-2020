@@ -25,7 +25,7 @@
 
 ### Setup 
 1. To make sure that you have install python 3 please open terminal(powershell, cmd ...) and simply type.
-   * If you are install only python3
+   * If you install only python3
    ```bash
    python --version
    ```
@@ -66,37 +66,37 @@
       
 ### Projects
 
-1. #### Project 0
+#### 1. Project 0
    * Description
    > Design a front-end for Google Search, Google Image Search, and Google Advanced Search. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/0/search/)
    * Project [Demo](https://search-cs50-web.herokuapp.com/)(deployment)
    * [Video Demo](https://www.youtube.com/watch?v=NIXez8okMbs)
  
-2. #### Project 1 
+#### 2. Project 1 
    * Description
    > Design a Wikipedia-like online encyclopedia. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
    * Project [Demo](https://wiki-clone-cs50w.herokuapp.com/)(deployment)
    * [Video Demo](https://www.youtube.com/watch?v=qYIjgQsfsfg)
 
-3. #### Project 2
+#### 3. Project 2
    * Description
    > Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/2/commerce/)
    * Project [Demo](https://commerce-50w.herokuapp.com/)(deployment)
    * [Video Demo](https://www.youtube.com/watch?v=sN0wIE_tghw)
 
-4. #### Project 3
+#### 4. Project 3
    * Description
    > Design a front-end for an email client that makes API calls to send and receive emails. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/3/mail/)
    * Project [Demo](https://cs50w-simple-mail-app.herokuapp.com/)(deployment)
    * [Video Demo](https://www.youtube.com/watch?v=rbipMVPtDQE)
 
-5. #### Project 4
+#### 5. Project 4
    * Description
    > Design a Twitter-like social network website for making posts and following users. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/4/network/)
    * Project [Demo](https://network-cs50-web.herokuapp.com/)(deployment)
    * [Video Demo](https://www.youtube.com/watch?v=mZwGtA9GS_E)
 
-6. #### Capstone
+#### 6. Capstone
    * Description
    > Comming soon.
    * Project [Demo](.)(Comming soon)
