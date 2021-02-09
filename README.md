@@ -17,53 +17,87 @@
 ## General info
 
 ### Description
-  > Solutions for [CS50W's Projects(version 2020)](https://cs50.harvard.edu/web/2020/)
+   > Solutions for [CS50W's Projects(version 2020)](https://cs50.harvard.edu/web/2020/)
 
 ### Prerequisites
-* Python 3.7 or greater
-* Django 3.x
+   * Python 3.7 or greater
+   * Django 3.x
 
 ### Setup 
-To make sure that you have install python 3 please open terminal(powershell, cmd ...) ans simply type.
-```bash
-python --version
-```
-
+1. To make sure that you have install python 3 please open terminal(powershell, cmd ...) and simply type.
+   * If you are install only python3
+   ```bash
+   python --version
+   ```
+   * If you have 2 version of python.
+   ```bash
+   python3 --version
+   ```
+2. Create virtual environment
+   ```bash
+   python -m venv {your-virtual-env-name}
+   ```
+3. Activate venv for current terminal
+   * Linux
+   ```bash
+   source /your-virtual-env-path-that-you-create/Scripts/activate
+   ```
+   * Windows
+      * powershell
+      ```powershell
+      .\your-virtual-env-path-that-you-create\Scripts\activate.ps1
+      ```
+      * cmd
+      ```batch
+      .\your-virtual-env-path-that-you-create\Scripts\activate.bat
+      ```
+4. Install Django
+   ```sh
+   pip install Django
+   ```
+   Or using requirement file which is included for each project
+   ```sh
+   pip install -r {requirement-file}
+   ```
+5. Verify Django installation
+   ```sh
+   django-admin --version 
+   ```
+      
 ### Projects
 
-#### Project 0
- 1. Description
- > Design a front-end for Google Search, Google Image Search, and Google Advanced Search. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/0/search/)
- 2. Project [Demo](https://search-cs50-web.herokuapp.com/)(deployment)
- 3. [Video Demo](https://www.youtube.com/watch?v=NIXez8okMbs)
+1. #### Project 0
+   * Description
+   > Design a front-end for Google Search, Google Image Search, and Google Advanced Search. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/0/search/)
+   * Project [Demo](https://search-cs50-web.herokuapp.com/)(deployment)
+   * [Video Demo](https://www.youtube.com/watch?v=NIXez8okMbs)
  
-#### Project 1 
- 1. Description
- > Design a Wikipedia-like online encyclopedia. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
- 2. Project [Demo](https://wiki-clone-cs50w.herokuapp.com/)(deployment)
- 3. [Video Demo](https://www.youtube.com/watch?v=qYIjgQsfsfg)
+2. #### Project 1 
+   * Description
+   > Design a Wikipedia-like online encyclopedia. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
+   * Project [Demo](https://wiki-clone-cs50w.herokuapp.com/)(deployment)
+   * [Video Demo](https://www.youtube.com/watch?v=qYIjgQsfsfg)
 
-#### Project 2
- 1. Description
- > Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/2/commerce/)
- 2. Project [Demo](https://commerce-50w.herokuapp.com/)(deployment)
- 3. [Video Demo](https://www.youtube.com/watch?v=sN0wIE_tghw)
+3. #### Project 2
+   * Description
+   > Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/2/commerce/)
+   * Project [Demo](https://commerce-50w.herokuapp.com/)(deployment)
+   * [Video Demo](https://www.youtube.com/watch?v=sN0wIE_tghw)
 
-#### Project 3
- 1. Description
- > Design a front-end for an email client that makes API calls to send and receive emails. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/3/mail/)
- 2. Project [Demo](https://cs50w-simple-mail-app.herokuapp.com/)(deployment)
- 3. [Video Demo](https://www.youtube.com/watch?v=rbipMVPtDQE)
+4. #### Project 3
+   * Description
+   > Design a front-end for an email client that makes API calls to send and receive emails. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/3/mail/)
+   * Project [Demo](https://cs50w-simple-mail-app.herokuapp.com/)(deployment)
+   * [Video Demo](https://www.youtube.com/watch?v=rbipMVPtDQE)
 
-#### Project 4
- 1. Description
- > Design a Twitter-like social network website for making posts and following users. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/4/network/)
- 2. Project [Demo](https://network-cs50-web.herokuapp.com/)(deployment)
- 3. [Video Demo](https://www.youtube.com/watch?v=mZwGtA9GS_E)
+5. #### Project 4
+   * Description
+   > Design a Twitter-like social network website for making posts and following users. More details about project see [this link](https://cs50.harvard.edu/web/2020/projects/4/network/)
+   * Project [Demo](https://network-cs50-web.herokuapp.com/)(deployment)
+   * [Video Demo](https://www.youtube.com/watch?v=mZwGtA9GS_E)
 
-#### Capstone
- 1. Description
- > Comming soon.
- 2. Project [Demo](.)(Comming soon)
- 3. [Video Demo](.)(Comming soon)
-
+6. #### Capstone
+   * Description
+   > Comming soon.
+   * Project [Demo](.)(Comming soon)
+   * [Video Demo](.)(Comming soon)
