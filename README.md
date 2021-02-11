@@ -15,7 +15,7 @@
       - [4. Project 3 (Mail)](#4-project-3-mail)
       - [5. Project 4 (Network)](#5-project-4-network)
       - [6. Capstone](#6-capstone)
-  - [Deployment (Comming soon)](#deployment-comming-soon)
+  - [Deployment](#deployment)
   - [Vscode extensions](#vscode-extensions)
 
 ## General info
@@ -106,7 +106,8 @@
    * Project [Demo](Final-Project)(Comming soon)
    * [Video Demo](Final-Project)(Comming soon)
 
-## Deployment (Comming soon)
+## Deployment 
+> See this [link](Deploy-Guide)
 
 ## Vscode extensions
 1. ms-python.python
