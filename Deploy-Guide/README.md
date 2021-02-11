@@ -3,6 +3,13 @@
 ## General info
 > This README is about step by step how to deploy your cs50 web exercises (django app) to heroku.
 
+## Table of contents
+- [How to deploy your cs50 web to heroku](#how-to-deploy-your-cs50-web-to-heroku)
+  - [General info](#general-info)
+  - [Table of contents](#table-of-contents)
+  - [Setup](#setup)
+  - [Deployment](#deployment)
+
 ## Setup
 
 1. ### [Download and Install Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
