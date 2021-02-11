@@ -94,7 +94,15 @@
           'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
       }
       ```
-      7. ##### Add these lines
+      Or 
+      ```python
+      DATABASES = {
+         'default': dj_database_url.config(
+            default=config('DATABASE_URL')
+         )
+      }
+      ```
+      1. ##### Add these lines
       ```python
       STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -117,4 +125,28 @@ heroku create (your app name here)
 
 ```bash
 heroku addons:create heroku-postgresql:hobby-dev -a (your app name here)
+```
+
+3. Login to [Heroku Dashboard](https://id.heroku.com/login) and access your recently created app
+   
+4. Click on the **Settings** menu and then on the button **Reveal Config Vars**
+
+5. Add all the Environment variables (example SECRET_KEY, DATABASE_URL)
+
+6. Run command below in your current project folder
+```bash
+git init
+git remote add heroku https://git.heroku.com/your-app-name.git
+git add .
+git commit
+git push heroku master
+```
+
+7. Run migration for your app
+```bash
+heroku run python manage.py migrate -a (your app name here)
+```
+8. Enjoy your app at 
+```
+https://your-app-name.herokuapp.com/.
 ```
