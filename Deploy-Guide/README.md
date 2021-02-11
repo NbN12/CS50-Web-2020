@@ -63,23 +63,23 @@
       ```python
       SECRET_KEY = 'Your sercret key here'
       ```
-      * To
+         * To
       ```python
       SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
       ```
-      1. ##### Set Debug mode equals to False
+      3. ##### Set Debug mode equals to False
       ```python
       DEBUG = config('DEBUG', default=False, cast=bool)
       ```
-      1. ##### Allow .herokuapp.com
+      4. ##### Allow .herokuapp.com
       ```python
       ALLOWED_HOSTS = [".herokuapp.com"]
       ```
-      1. ##### Add this line to MIDDLEWARE
+      5. ##### Add this line to MIDDLEWARE
       ```python
       'whitenoise.middleware.WhiteNoiseMiddleware'
       ```
-      1. ##### Change these lines below from
+      6. ##### Change these lines below from
       ```python
       DATABASES = {
         'default': {
@@ -94,7 +94,7 @@
           'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
       }
       ```
-      1. ##### Add these lines
+      7. ##### Add these lines
       ```python
       STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
