@@ -63,7 +63,7 @@
       ```python
       SECRET_KEY = 'Your sercret key here'
       ```
-         * To
+      To
       ```python
       SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
       ```
@@ -88,7 +88,7 @@
          }
       }
       ```
-      * To 
+      To 
       ```python
       DATABASES = {
           'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
